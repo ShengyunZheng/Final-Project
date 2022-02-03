@@ -1,0 +1,31 @@
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline;
+
+    /* add a little space between each picture and the next */
+    margin: 6px;
+}
+
+.gallery img {
+    /*
+    The original images are all different sizes but we need
+    them to be consistent for the gallery layout to look good.
+    */
+    height: 200px;
+
+    /* add an outline around each picture */
+    border: 5px solid blue;
+}
+
+.gallery p {
+    text-align: center;
+    margin-top: 0;
+}
+body{
+    text-align:center;
+    background:url(https://png.pngtree.com/thumb_back/fh260/background/20201023/pngtree-abstract-pink-neon-light-gaming-background-design-image_430848.jpg);
+    color:white;
+}
